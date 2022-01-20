@@ -30,6 +30,7 @@ namespace WpfApp1
             {
                 lstNames.Items.Add(txtName.Text);
                 txtName.Clear();
+                MessageBox.Show("Record Inserted","Saved Record");
             }
         }
     }
